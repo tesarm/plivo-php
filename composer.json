@@ -1,0 +1,31 @@
+{
+  "name": "yii2-plivo",
+  "type": "yii2-extension",
+  "description": "Plivo PHP library",
+  "keywords": [
+    "plivo",
+    "sip",
+    "yii2",
+    "helper"
+  ],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/tesarm/plivo-php/issues",
+    "wiki": "https://github.com/tesarm/plivo-php/wiki",
+    "source": "https://github.com/tesarm/plivo-php"
+  },
+  "authors": [
+    {
+      "name": "Michal Tesar",
+      "email": "tesarm@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "plivo": ""
+    }
+  }
+}
