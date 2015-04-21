@@ -163,7 +163,7 @@ class Element
         if ($header === TRUE) {
             $xmlstr = "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" . $xmlstr;
         }
-        $xml = new SimpleXMLElement($xmlstr);
+        $xml = new \SimpleXMLElement($xmlstr);
         $this->setAttributes($xml);
         foreach ($this->childs as $child) {
             $child->asChild($xml);
