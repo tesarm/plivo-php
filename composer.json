@@ -1,5 +1,5 @@
 {
-  "name": "yii2-plivo",
+  "name": "emte/yii2-plivo",
   "type": "yii2-extension",
   "description": "Plivo PHP library",
   "keywords": [
