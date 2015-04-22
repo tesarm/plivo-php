@@ -118,7 +118,7 @@ class Element
 
     public function getName()
     {
-        return $this->name;
+        return str_replace(__NAMESPACE__ . '\\', '', $this->name);
     }
 
     protected function add($element)
