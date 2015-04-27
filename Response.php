@@ -13,7 +13,7 @@ class Response extends Element
         parent::__construct(NULL);
     }
 
-    public function toXML()
+    public function toXML($header = FALSE)
     {
         $xml = parent::toXML($header = TRUE);
         return $xml;
