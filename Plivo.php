@@ -210,6 +210,12 @@ class Plivo extends Component
         return $this->request('GET', '/Call/' . $call_uuid . '/', $params);
     }
 
+    public function get_call($params = array())
+    {
+        $call_uuid = $this->pop($params, 'call_uuid');
+        return $this->request('GET', '/Call/' . $call_uuid . '/', $params);
+    }
+
     public function make_call($params = array())
     {
         return $this->request('POST', '/Call/', $params);
