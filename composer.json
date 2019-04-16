@@ -8,7 +8,6 @@
     "yii2",
     "helper"
   ],
-  "version": "1.0.0",
   "license": "BSD-3-Clause",
   "support": {
     "issues": "https://github.com/tesarm/plivo-php/issues",
